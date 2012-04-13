@@ -1,0 +1,9 @@
+This project is in a non-working state, whoops. Its still a bit early.
+
+The objective is to provide a very fast data array class that is as easy to work with as python's numpy class.  The arrays will also be able to be names and time stamps and indexed axes, a feature that numpy sadly lacks. 
+
+Currently, memoery management is has two styles:
+a) owner, this is a little dangerous: when the owner dies the underlying data gets nuked.
+b) Internal refernce counting. 
+
+
